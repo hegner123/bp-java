@@ -1,3 +1,4 @@
+
 /*The MIT License (MIT)  
 Copyright (c) 2024 BudgetPlanning
 
@@ -19,20 +20,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-import java.awt.*; 
+
 
 public class Main {
   public static void main(String[] args) {
-    Frame mainFrame = new Frame();
-      mainFrame.setTitle("Budget Planning");
-      mainFrame.setLocation(100, 100);
-      mainFrame.setSize(200, 100);
-      mainFrame.setVisible(true);
-
-
-    
-
-  
+        Gui mainGui = new Gui("Budget Planning");
+      mainGui.setTitle("Budget Planning");
+      mainGui.setLocation(100, 100);
+      mainGui.setSize(500, 500);
+      mainGui.setVisible(true);
 
   }
 }
